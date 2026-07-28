@@ -1,0 +1,7 @@
+{
+  "bundle": "t004_hw14_merge_celsius",
+  "source_file": "DSmith_HW14_prog.sas",
+  "source_blob_sha": "6132fa04879e63da452c788f3f3428073cf1fdf9",
+  "source_commit": "64bfffb833eee05297676c0ca9b8cb2d3a05fb14",
+  "notes": "Author's HW14 merges July 2021 and July 2022 station data by STATION and calendar day, converts Fahrenheit to Celsius for matched ('Both') rows with a parallel ARRAY DO-loop, then joins elevation and routes rows to noheight vs. mylib.hotheight. Original read july21_edit, july22, and elevation from an external SAS Studio library; autoexec rebuilds equivalent WORK datasets in the exact shapes HW14 consumes, with College Station and Waco sharing a calendar day so the 'Both' array branch fires. Merge, array conversion, elevation join, and report logic unchanged; external ODS PDF removed. Captured Celsius values (College Station 41C, Waco 42C) reproduce the author's own answer key."
+}

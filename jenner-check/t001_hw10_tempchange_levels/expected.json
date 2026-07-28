@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-28T06:56:00Z",
+  "_captured_run_id": "r_0039966d676441c3853c551bde68f0e0",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: Read 12 rows from mylib.july22.",
+    "NOTE: Wrote normal (7 rows, 8 columns).",
+    "NOTE: Wrote mylib.hot (4 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 1 observations printed, 8 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

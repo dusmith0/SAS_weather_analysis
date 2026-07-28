@@ -1,0 +1,51 @@
+                                                     Mylib Contents
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Library: MYLIB
+Datasets: 4
+
+Directory Listing:
+
+Member Name
+--------------------
+HOT
+JULY22
+JULY22_RECORDS
+NORMAL
+
+-------------------------------------------------------------------------------
+
+                                                   Normal Temperature
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: work.normal
+Observations:  7
+Variables:     8
+
+Variables (in alphabetical order):
+
+  #  Variable    Type    Len  Format  Label
+---  ----------  ----  -----  ------  -----
+  1  DATE         Num      8  DATE9.  
+  2  level       Char      7          
+  3  NAME        Char     58          
+  4  PRCP         Num      8          
+  5  STATION     Char     12          
+  6  tempchange   Num      8          
+  7  TMAX         Num      8          
+  8  TMIN         Num      8          
+
+-------------------------------------------------------------------------------
+
+                                             Waco Area Data as of 01Jul2022
+
+
+  Obs  level      STATION                         NAME       DATE  PRCP  TMAX  TMIN  tempchange
+-----  -----  -----------  ---------------------------  ---------  ----  ----  ----  ----------
+    1  High   USW00013904  WACO REGIONAL AIRPORT TX US  01JUL2022     0   103    74          29

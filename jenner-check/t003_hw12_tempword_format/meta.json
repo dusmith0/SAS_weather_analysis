@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_hw12_tempword_format",
+  "source_file": "DSmith_HW12_prog.sas",
+  "source_blob_sha": "5ab9caf7b99eadbb03e0770429fd01eab5536eed",
+  "source_commit": "64bfffb833eee05297676c0ca9b8cb2d3a05fb14",
+  "notes": "Author's HW12 defines a custom PROC FORMAT (tempword ranges), cleans station NAMEs with PROPCASE/TRIM/SUBSTR, derives a daily temperature change, sorts, and prints two labeled reports (BY-group precipitation sums with the format applied; hottest-10 with WEEKDATE32.). Original read mylib.july21 from an external SAS Studio path; autoexec substitutes a 10-row WORK.july21 sample whose NAMEs carry the trailing ', TX US' suffix the SUBSTR(...,1,LENGTH-7) trim expects, so the College Station and Waco WHERE filter matches unchanged. Format, transformation, sort, and print logic unchanged; external ODS PDF removed."
+}

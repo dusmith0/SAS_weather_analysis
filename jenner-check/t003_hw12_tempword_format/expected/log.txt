@@ -1,0 +1,42 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB uses 1 concatenated paths.
+NOTE: DATA mylib.july21
+
+NOTE: Processing inline DATALINES (10 lines)
+
+NOTE: Read 10 rows from DATALINES.
+NOTE: Wrote mylib.july21 (10 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC FORMAT library=WORK
+
+NOTE: FORMAT tempword defined (6 ranges).
+NOTE: DATA mylib.july21_edit
+
+
+NOTE: Read 10 rows from mylib.july21.
+NOTE: Wrote mylib.july21_edit (10 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=mylib.july21_edit
+
+NOTE: Read 10 rows from mylib.july21_edit.
+NOTE: Wrote mylib.july21_edit (10 rows, 8 columns).
+NOTE: PROC SORT statement used.
+NOTE: Option TITLE changed to College Station and Waco Rainfall.
+NOTE: Option TITLE2 changed to July 2021.
+NOTE: PROC PRINT data=mylib.july21_edit
+
+NOTE: PROC PRINT completed: 7 observations printed, 3 variables
+NOTE: PROC SORT data=mylib.july21_edit
+
+NOTE: Read 10 rows from mylib.july21_edit.
+NOTE: Wrote byTMAX (10 rows, 8 columns).
+NOTE: PROC SORT statement used.
+NOTE: Option TITLE changed to HOT HOT HOT.
+NOTE: Option TITLE2 changed to July 2021.
+NOTE: PROC PRINT data=work.byTMAX
+
+NOTE: PROC PRINT completed: 10 observations printed, 4 variables

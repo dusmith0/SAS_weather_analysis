@@ -1,0 +1,59 @@
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: mylib.elevation
+Observations:  8
+Variables:     7
+
+Variables (in alphabetical order):
+
+  #  Variable   Type    Len  Format  Label
+---  ---------  ----  -----  ------  -----
+  1  AWND       Char      1          
+  2  DATE       Char     13          
+  3  ELEVATION  Char      7          
+  4  LATITUDE   Char     11          
+  5  LONGITUDE  Char     12          
+  6  NAME       Char     30          
+  7  STATION    Char     12          
+
+-------------------------------------------------------------------------------
+
+                                                Modified Elevations Data
+                                                   Descriptor Portion
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: mylib.Modified_Elevations
+Observations:  8
+Variables:     9
+
+Variables (in alphabetical order):
+
+  #  Variable      Type    Len  Format     Label
+---  ------------  ----  -----  ---------  -----
+  1  DATE           Num      8  MMDDYY10.  
+  2  Day            Num      8             
+  3  ELEVATION      Num      8  COMMA12.   
+  4  LATITUDE       Num      8             
+  5  LONGITUDE      Num      8             
+  6  NAME          Char     58             
+  7  STATION       Char     12             
+  8  Station_Code  Char      8             
+  9  Station_Type  Char      3             
+
+-------------------------------------------------------------------------------
+
+                                                Modified Elevations Data
+                                        USW Stations with Mid-ranged Elevations
+
+
+  Obs                     NAME  Station_Type  Station_Code      STATION   LATITUDE   LONGITUDE  ELEVATION        DATE  Day
+-----  -----------------------  ------------  ------------  -----------  ---------  ----------  ---------  ----------  ---
+    1  HUNTSVILLE MUNICIPAL AI  USW           00013959      USW00013959  30.746944  -95.587222        105  01/01/2022    1
+    2  WICHITA FALLS MUNI A     USW           00013966      USW00013966    33.9782    -98.4934        309  01/01/2022    1
+    3  ROBERT GRAY AA           USW           00003902      USW00003902    31.0672    -97.8288        309  01/01/2022    1
+    4  COLLEGE STATION EASTE    USW           00003904      USW00003904    30.5883    -96.3653        320  01/01/2022    1
