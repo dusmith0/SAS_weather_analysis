@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_hw10_tempchange_levels",
+  "source_file": "DSmith_HW10_prog.sas",
+  "source_blob_sha": "a1d2d31066d82232d2f975631c424bd1f51cdfaf",
+  "source_commit": "64bfffb833eee05297676c0ca9b8cb2d3a05fb14",
+  "notes": "Author's HW10 DATA-step classifies daily temperature change (TMAX-TMIN) into level buckets and routes rows to three datasets via conditional OUTPUT. Original read mylib.july22 from an external SAS Studio path; autoexec substitutes a 12-row WORK.july22 sample with the same 8 columns (STATION NAME DATE AWND PRCP TAVG TMAX TMIN) and points mylib at WORK. Classification/OUTPUT logic, PDV putlog notes, and the Waco macro filter are unchanged; external ODS PDF removed so the report renders to the listing."
+}

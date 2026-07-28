@@ -1,0 +1,14 @@
+{
+  "_captured_at": "2026-07-28T07:00:00Z",
+  "_captured_run_id": "r_ba82a2fbc11a42ae959fe67a05a1f8bc",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "NOTE: FORMAT tempword defined (6 ranges).",
+    "NOTE: Wrote mylib.july21_edit (10 rows, 8 columns).",
+    "NOTE: PROC PRINT completed: 7 observations printed, 3 variables",
+    "NOTE: PROC PRINT completed: 10 observations printed, 4 variables"
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

@@ -1,0 +1,49 @@
+                                           College Station and Waco Rainfall
+                                                       July 2021
+
+
+    Station                              Name       Date  Precipitation  Daily Change
+-----------  --------------------------------  ---------  -------------  ------------
+Station=USW00003904
+Name=College Station Easterwood Field
+
+    Station                              Name       Date  Precipitation  Daily Change  
+USW00003904  College Station Easterwood Field  01JUL2021            0.1           Low
+USW00003904  College Station Easterwood Field  02JUL2021           0.55           Low
+USW00003904  College Station Easterwood Field  03JUL2021            1.2           Low
+                                                          =============                
+                                                                   1.85                
+                                                          =============                
+                                                                   1.85                
+
+Station=USW00013904
+Name=Waco Regional Airport
+
+    Station                              Name       Date  Precipitation  Daily Change  
+USW00013904  Waco Regional Airport             01JUL2021              0        Normal
+USW00013904  Waco Regional Airport             02JUL2021            2.1        Normal
+USW00013904  Waco Regional Airport             03JUL2021           1.91        Normal
+USW00013904  Waco Regional Airport             25JUL2021              0          High
+                                                          =============                
+                                                                   4.01                
+                                                          =============                
+                                                                   4.01                
+-----------  --------------------------------             =============                
+                                                                   5.86                
+
+                                                      HOT HOT HOT
+                                                       July 2021
+
+
+    Station                                Name                    Date  High Temp
+-----------  ----------------------------------  ----------------------  ---------
+USW00023044  Rio Grande Village                   Sunday, July 25, 2021        111
+USW00013904  Waco Regional Airport                Sunday, July 25, 2021        111
+USW00023044  Rio Grande Village                   Monday, July 26, 2021        110
+USW00013904  Waco Regional Airport               Saturday, July 3, 2021        104
+USW00013904  Waco Regional Airport               Thursday, July 1, 2021        101
+USW00013904  Waco Regional Airport                 Friday, July 2, 2021        100
+USW00003904  College Station Easterwood Field    Thursday, July 1, 2021         95
+USW00003904  College Station Easterwood Field      Friday, July 2, 2021         93
+USW00003904  College Station Easterwood Field    Saturday, July 3, 2021         92
+USW00023047  Amarillo Rick Husband Intl Airport  Thursday, July 1, 2021         90

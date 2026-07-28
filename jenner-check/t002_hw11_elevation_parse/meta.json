@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_hw11_elevation_parse",
+  "source_file": "DSmith_HW11_prog.sas",
+  "source_blob_sha": "9c963e5f3ac81d4c80b5e9af0cb4f49d01a22e18",
+  "source_commit": "64bfffb833eee05297676c0ca9b8cb2d3a05fb14",
+  "notes": "Author's HW11 DATA step converts an all-character elevation import into typed columns via INPUT with informats, splits the GHCN STATION id into Station_Type/Station_Code with SUBSTR, and derives a Day offset with DATDIF. Original read mylib.elevation from an external SAS Studio path; autoexec substitutes an 8-row all-character WORK.elevation sample (columns AWND STATION ELEVATION LATITUDE LONGITUDE NAME DATE) and points mylib at WORK. Transformation logic, WHERE filter (USW, 100<=ELEVATION<=375), and PROC CONTENTS/PRINT steps are unchanged; external ODS PDF removed."
+}

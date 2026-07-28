@@ -1,0 +1,161 @@
+                                            Work Library Descriptor Portion
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Library: WORK
+Datasets: 6
+
+--- Dataset: ELEVATION ---
+Observations: 2
+Variables: 2
+
+  #  Variable              Type    Len
+---  --------------------  ----  -----
+  1  ELEVATION              Num      8
+  2  STATION               Char     12
+
+--- Dataset: HOTHEIGHT ---
+Observations: 2
+Variables: 16
+
+  #  Variable              Type    Len
+---  --------------------  ----  -----
+  1  Day                    Num      8
+  2  ELEVATION              Num      8
+  3  NAME                  Char     51
+  4  PRCP21                 Num      8
+  5  PRCP22                 Num      8
+  6  Source                Char      9
+  7  STATION               Char     12
+  8  Tchange                Num      8
+  9  TCMAX21                Num      8
+ 10  TCMAX22                Num      8
+ 11  TCMIN21                Num      8
+ 12  TCMIN22                Num      8
+ 13  TFMAX21                Num      8
+ 14  TFMAX22                Num      8
+ 15  TFMIN21                Num      8
+ 16  TFMIN22                Num      8
+
+--- Dataset: JULY21_EDIT ---
+Observations: 3
+Variables: 6
+
+  #  Variable              Type    Len
+---  --------------------  ----  -----
+  1  Day                    Num      8
+  2  NAME                  Char     51
+  3  PRCP                   Num      8
+  4  STATION               Char     12
+  5  TMAX                   Num      8
+  6  TMIN                   Num      8
+
+--- Dataset: JULY22 ---
+Observations: 3
+Variables: 6
+
+  #  Variable              Type    Len
+---  --------------------  ----  -----
+  1  Day                    Num      8
+  2  NAME                  Char     51
+  3  PRCP                   Num      8
+  4  STATION               Char     12
+  5  TMAX                   Num      8
+  6  TMIN                   Num      8
+
+--- Dataset: JULYHEAT ---
+Observations: 4
+Variables: 15
+
+  #  Variable              Type    Len
+---  --------------------  ----  -----
+  1  Day                    Num      8
+  2  NAME                  Char     51
+  3  PRCP21                 Num      8
+  4  PRCP22                 Num      8
+  5  Source                Char      9
+  6  STATION               Char     12
+  7  Tchange                Num      8
+  8  TCMAX21                Num      8
+  9  TCMAX22                Num      8
+ 10  TCMIN21                Num      8
+ 11  TCMIN22                Num      8
+ 12  TFMAX21                Num      8
+ 13  TFMAX22                Num      8
+ 14  TFMIN21                Num      8
+ 15  TFMIN22                Num      8
+
+--- Dataset: NOHEIGHT ---
+Observations: 2
+Variables: 15
+
+  #  Variable              Type    Len
+---  --------------------  ----  -----
+  1  Day                    Num      8
+  2  NAME                  Char     51
+  3  PRCP21                 Num      8
+  4  PRCP22                 Num      8
+  5  Source                Char      9
+  6  STATION               Char     12
+  7  Tchange                Num      8
+  8  TCMAX21                Num      8
+  9  TCMAX22                Num      8
+ 10  TCMIN21                Num      8
+ 11  TCMIN22                Num      8
+ 12  TFMAX21                Num      8
+ 13  TFMAX22                Num      8
+ 14  TFMIN21                Num      8
+ 15  TFMIN22                Num      8
+
+-------------------------------------------------------------------------------
+
+                                    Temperature and Elevations of July21 and July22
+
+
+PROC CONTENTS
+-------------------------------------------------------------------------------
+
+Data Set Name: mylib.hotheight
+Observations:  2
+Variables:     16
+
+Variables (in creation order):
+
+  #  Variable   Type    Len  Format    Label
+---  ---------  ----  -----  --------  ---------------------------------
+  1  Source     Char      9            
+  2  STATION    Char     12            Station
+  3  NAME       Char     51            Name
+  4  PRCP21      Num      8  BEST12.1  PRCP
+  5  TFMAX21     Num      8            TMAX
+  6  TFMIN21     Num      8            TMIN
+  7  Day         Num      8            
+  8  PRCP22      Num      8  BEST12.1  PRCP
+  9  TFMAX22     Num      8            TMAX
+ 10  TFMIN22     Num      8            TMIN
+ 11  Tchange     Num      8            Difference in Yearly Max Temp(F).
+ 12  TCMAX21     Num      8            
+ 13  TCMIN21     Num      8            
+ 14  TCMAX22     Num      8            
+ 15  TCMIN22     Num      8            
+ 16  ELEVATION   Num      8            Elevation
+
+-------------------------------------------------------------------------------
+
+                                            July2022 data without Elevation
+
+
+    Station                             Name  Day  TMAX  TCMAX22  TMIN  TCMIN22
+-----------  -------------------------------  ---  ----  -------  ----  -------
+USW00012960  Houston William P Hobby Airport   12    99        .    79        .
+
+                                    Temperature and Elevations of July21 and July22
+                                              In Waco and College Station
+
+
+    Station                              Name  Elevation  Day  TMAX  TCMAX22  TMIN  TCMIN22  Difference in Yearly Max Temp(F).
+-----------  --------------------------------  ---------  ---  ----  -------  ----  -------  ---------------------------------
+USW00003904  College Station Easterwood Field         96   12   107       41    73       22                                 12
+USW00013904  Waco Regional Airport                   470   12   108       42    82       27                                  7

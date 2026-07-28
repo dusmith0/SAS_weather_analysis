@@ -1,0 +1,37 @@
+NOTE: Option OBS changed to 100.
+NOTE: Library MYLIB uses 1 concatenated paths.
+NOTE: DATA mylib.july22
+
+NOTE: Processing inline DATALINES (12 lines)
+
+NOTE: Read 12 rows from DATALINES.
+NOTE: Wrote mylib.july22 (12 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA normal mylib.hot mylib.july22_records
+
+NOTE: Multi-output DATA step splits stream into: normal mylib.hot mylib.july22_records
+NOTE: PDV Before Set StatementLEVEL=. STATION=USW00012960 NAME=HOUSTON WILLIAM P HOBBY AIRPORT TX US DATE=22827 AWND=7.4 PRCP=0 TAVG=89 TMAX=101 TMIN=78 TEMPCHANGE=. _ERROR_=0 _N_=1
+NOTE: PDV Before Run StatementLEVEL=Normal STATION=USW00012960 NAME=HOUSTON WILLIAM P HOBBY AIRPORT TX US DATE=22827 AWND=7.4 PRCP=0 TAVG=89 TMAX=101 TMIN=78 TEMPCHANGE=23 _ERROR_=0 _N_=1
+NOTE: PDV Before Set StatementLEVEL=. STATION=USW00012960 NAME=HOUSTON WILLIAM P HOBBY AIRPORT TX US DATE=22828 AWND=6.9 PRCP=0.12 TAVG=86 TMAX=96 TMIN=77 TEMPCHANGE=. _ERROR_=0 _N_=2
+
+NOTE: Read 12 rows from mylib.july22.
+NOTE: Wrote normal (7 rows, 8 columns).
+NOTE: Wrote mylib.hot (4 rows, 8 columns).
+NOTE: Wrote mylib.july22_records (12 rows, 8 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: Option TITLE changed to Mylib Contents.
+NOTE: PROC CONTENTS data=mylib._ALL_
+
+NOTE: PROC CONTENTS completed: 4 datasets in library MYLIB
+NOTE: Option TITLE changed to Normal Temperature.
+NOTE: PROC CONTENTS data=work.normal
+
+NOTE: PROC CONTENTS completed: 7 observations, 8 variables
+NOTE: Option TITLE changed to Waco Area Data as of 01Jul2022.
+NOTE: PROC PRINT data=mylib.july22_records
+
+NOTE: PROC PRINT completed: 1 observations printed, 8 variables
